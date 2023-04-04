@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montsserat", sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(img/background.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.box {
+  height: 100%;
+
+  width: 450 px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40 px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.box-img {
+  border-radius: 60%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.box h1 {
+  font-size: 40 px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin-top: 20 px;
+}
+
+.box h5 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-top: 20 px 0;
+}
+
+.box p {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.box li {
+  display: inline-block;
+  margin: 60px;
+  transition: all ease-in-out 250 ms;
+}
+
+.box li a:hover {
+  color: #b9b9b9;
+}
